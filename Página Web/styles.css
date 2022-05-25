@@ -1,0 +1,52 @@
+body{
+    background-image: url(https://img.freepik.com/vector-gratis/pared-ladrillos-dibujos-animados_158677-211.jpg) ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+    font-weight: bold;
+    
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/785/680/979/video-game-smite-thoth-smite-wallpaper-preview.jpg);
+    background-size: 300px 100px;
+    text-shadow: 7px 4px 5px blue;
+
+}
+
+h3{
+    text-align: center;
+    text-shadow: 7px 4px 5px blue;
+    
+    margin-left: 400px;
+    margin-right: 400px;
+
+}
+
+div{
+    color:blue;
+    font-size: 20px;
+    padding-left: 50px;
+    background-image: url(https://lh3.googleusercontent.com/ZqoQw6xCTYFpBethPEnrJMkBDYGSA5QkDJ1Ze1WqPVEbQRSf1m11ELDrPUXjrZRtgxh9=s126);
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+input{
+    background-color:rgb(69, 115, 175);
+    color: white;
+}
+
+#btn{
+    color: yellow; 
+    background-color: blue;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/785/680/979/video-game-smite-thoth-smite-wallpaper-preview.jpg);
+    background-size: 300px 100px;
+    text-shadow: 7px 4px 5px blue;
+}

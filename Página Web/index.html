@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>THOTH</title>
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
+</head>
+<body>
+    <h1>THOTH</h1>
+    <h3>¡Registrate!</h3>
+       <!--Se definen los que datos se quieren pedir para asi guardarlos a la base de dartos-->
+    <div>
+       <label>Numero de identificación</label>  <input id="cc" type="number"><br><br>
+
+       <label>Condición</label>  <input id="Condi" type="text"><br><br>
+
+       <label>Edad</label>  <input id="Edad" type="number"><br><br>
+      
+       <label>Nombre y Apellidos</label>  <input id="Nom" type="text"><br><br>
+
+       <label>Contraseña</label>  <input id="pass" type="text" placeholder="Minimo 8 letas"><br><br>
+   
+       <!--Se define un boton donde se dara la orden de enviar los datos a firebase -->
+       <button id="btn">Guardar</button>
+    </div>
+
+    <h2>APRENDE DIVIRTIENDOTE</h2>
+       <!--Se hace la respectiva conexion con firebase, es importante generar la opcion de WED APP ya que es ahi donde se nos
+       genera los codigos necesario para la conexion, en esta ocacion se tomoaron los codigos tipo CDN-->
+   
+       <script type="module" src="./firebase.js">//DESDE AQUI
+           
+        </script>
+</body>
+</html>
